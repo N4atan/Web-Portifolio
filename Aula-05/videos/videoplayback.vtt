@@ -1,0 +1,2401 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:01.950
+(Transcrito por TurboScribe.ai. Atualize para Ilimitado para remover esta mensagem.) Vibe Learning, acabei de inventar, se alguém já
+
+2
+00:00:01.950 --> 00:00:03.770
+inventou esse tema, não tem o menor problema.
+
+3
+00:00:04.110 --> 00:00:05.330
+Fiz um post no Twitter, fiz um post
+
+4
+00:00:05.330 --> 00:00:06.210
+no LinkedIn sobre isso.
+
+5
+00:00:06.270 --> 00:00:06.650
+O que é?
+
+6
+00:00:06.790 --> 00:00:08.590
+Vou mostrar para vocês que na prática a
+
+7
+00:00:08.590 --> 00:00:09.390
+galera ficou em dúvida.
+
+8
+00:00:09.670 --> 00:00:11.250
+Isso aqui é um fluxo para você aprender
+
+9
+00:00:11.250 --> 00:00:12.990
+a fazer projetos, porque eu acredito que a
+
+10
+00:00:12.990 --> 00:00:15.670
+melhor maneira de aprender tecnologia é fazendo projetos
+
+11
+00:00:15.670 --> 00:00:17.630
+mesmo, é fazendo ali na prática, é assim
+
+12
+00:00:17.630 --> 00:00:18.250
+que você vai aprender.
+
+13
+00:00:18.530 --> 00:00:19.610
+E você vai usar a IA como uma
+
+14
+00:00:19.610 --> 00:00:21.930
+espécie de tutor para te ajudar de fato
+
+15
+00:00:21.930 --> 00:00:24.710
+a entender as coisas, e não vai só
+
+16
+00:00:24.710 --> 00:00:26.750
+depender da IA para gerar tudo, porque senão
+
+17
+00:00:26.750 --> 00:00:28.430
+você não vai aprender nada, faz sentido.
+
+18
+00:00:28.430 --> 00:00:30.090
+A gente vai fazer os seguintes passos.
+
+19
+00:00:30.370 --> 00:00:32.730
+Primeira coisa, decidir algo que a gente quer
+
+20
+00:00:32.730 --> 00:00:34.090
+fazer, algum projeto que a gente quer tocar
+
+21
+00:00:34.090 --> 00:00:35.290
+e que a gente vai de fato tocar
+
+22
+00:00:35.290 --> 00:00:36.670
+ele para tentar aprender alguma coisa.
+
+23
+00:00:36.930 --> 00:00:39.150
+Então no caso, como montar uma arquitetura escalável
+
+24
+00:00:39.150 --> 00:00:40.490
+para um gateway de pagamentos.
+
+25
+00:00:40.850 --> 00:00:42.010
+Supondo que eu não saiba como um gateway
+
+26
+00:00:42.010 --> 00:00:43.730
+de pagamentos funciona, eu quero aprender isso daqui,
+
+27
+00:00:43.970 --> 00:00:45.850
+eu quero tocar esse projeto por qualquer motivo.
+
+28
+00:00:46.150 --> 00:00:47.330
+Pode ser para ganhar dinheiro, pode ser só
+
+29
+00:00:47.330 --> 00:00:49.250
+para aprender como essas coisas funcionam, pode ser,
+
+30
+00:00:49.310 --> 00:00:50.210
+sei lá, só para ver no que vai
+
+31
+00:00:50.210 --> 00:00:51.130
+dar, só por diversão.
+
+32
+00:00:51.330 --> 00:00:52.650
+Então você fez uma ideia de algo que
+
+33
+00:00:52.650 --> 00:00:55.190
+você não sabe exatamente fazer, ou de repente
+
+34
+00:00:55.190 --> 00:00:57.330
+não conhece melhores práticas, ou talvez você até
+
+35
+00:00:57.330 --> 00:00:59.110
+saiba fazer de uma maneira gambiarra, mas quer
+
+36
+00:00:59.110 --> 00:01:00.050
+fazer certinho ali.
+
+37
+00:01:00.290 --> 00:01:02.070
+Segundo passo, vamos jogar umas três IAs diferentes
+
+38
+00:01:02.070 --> 00:01:04.650
+para fazer um brainstorming de levantar as possibilidades
+
+39
+00:01:04.650 --> 00:01:06.390
+de como isso pode ser feito.
+
+40
+00:01:06.670 --> 00:01:08.090
+Então, brainstorming de soluções.
+
+41
+00:01:08.410 --> 00:01:10.270
+Nesse brainstorming, a gente vai debater com as
+
+42
+00:01:10.270 --> 00:01:12.870
+IAs, pedir os prós e os contras, e
+
+43
+00:01:12.870 --> 00:01:13.990
+tudo o que a gente não souber, a
+
+44
+00:01:13.990 --> 00:01:15.850
+gente vai usar a IA para explicar mais.
+
+45
+00:01:16.150 --> 00:01:17.550
+Meio que simultâneo a isso, a gente vai
+
+46
+00:01:17.550 --> 00:01:19.790
+também buscar artigos de pessoas que já fizeram
+
+47
+00:01:19.790 --> 00:01:19.990
+isso.
+
+48
+00:01:20.150 --> 00:01:21.870
+Provavelmente o que você quer fazer, tem alguém
+
+49
+00:01:21.870 --> 00:01:23.950
+que já fez algo muito similar e você
+
+50
+00:01:23.950 --> 00:01:26.430
+pode procurar artigos e salvar esses artigos para
+
+51
+00:01:26.430 --> 00:01:27.370
+depois usar como contexto.
+
+52
+00:01:27.670 --> 00:01:29.710
+Nesse ponto aqui, depois que você fez o
+
+53
+00:01:29.710 --> 00:01:31.630
+brainstorming com a IA, perguntou para a IA,
+
+54
+00:01:31.750 --> 00:01:33.990
+usou os artigos, você vai ter mais ou
+
+55
+00:01:33.990 --> 00:01:35.030
+menos uma solução.
+
+56
+00:01:35.310 --> 00:01:37.510
+Você vai ter uma ideia de como prosseguir.
+
+57
+00:01:37.750 --> 00:01:39.490
+Nessa ideia de solução, você vai pedir para
+
+58
+00:01:39.490 --> 00:01:40.390
+a IA gerar duas coisas.
+
+59
+00:01:40.690 --> 00:01:44.310
+Um PRD, que significa Product Requirement Documents, e
+
+60
+00:01:44.310 --> 00:01:47.130
+um ADR, Architecture Decision Record.
+
+61
+00:01:47.450 --> 00:01:48.930
+São dois documentos bem legais para a gente
+
+62
+00:01:48.930 --> 00:01:50.650
+usar de contexto depois, para a gente documentar
+
+63
+00:01:50.650 --> 00:01:53.170
+o processo de tomada de decisão, ter um
+
+64
+00:01:53.170 --> 00:01:55.090
+certo o que fazer, o que vai ser
+
+65
+00:01:55.090 --> 00:01:55.530
+feito.
+
+66
+00:01:55.650 --> 00:01:58.050
+Você vai criar documentos com esse seu novo
+
+67
+00:01:58.050 --> 00:01:58.570
+conhecimento.
+
+68
+00:01:58.710 --> 00:02:00.330
+Você vai explicar o que você aprendeu, você
+
+69
+00:02:00.330 --> 00:02:01.990
+vai salvar isso no Notion ou no Obsidian.
+
+70
+00:02:02.370 --> 00:02:03.710
+O processo vai ser iterativo.
+
+71
+00:02:03.970 --> 00:02:05.290
+Nessa parte, você vai fazer...
+
+72
+00:02:05.290 --> 00:02:06.930
+Eu faço os parágrafos com os bullet points
+
+73
+00:02:06.930 --> 00:02:08.430
+e eu peço para a IA ir expandindo.
+
+74
+00:02:08.590 --> 00:02:10.150
+Eu escrevo as linhas gerais e peço para
+
+75
+00:02:10.150 --> 00:02:12.250
+a IA embelezar o meu negócio.
+
+76
+00:02:12.630 --> 00:02:14.930
+Tudo isso feito, você vai pegar e codar
+
+77
+00:02:14.930 --> 00:02:18.130
+o negócio majoritariamente na mão, pedindo para a
+
+78
+00:02:18.130 --> 00:02:20.490
+IA revisar ou para ela gerar códigos pontuais.
+
+79
+00:02:20.630 --> 00:02:21.810
+Se você pedir para a IA gerar muito
+
+80
+00:02:21.810 --> 00:02:24.170
+código, vai ficar uma maçaroca difícil de mexer.
+
+81
+00:02:24.310 --> 00:02:25.670
+Isso aqui, a gente não vai estar fazendo
+
+82
+00:02:25.670 --> 00:02:25.970
+hoje.
+
+83
+00:02:26.170 --> 00:02:28.230
+Essa parte aqui, o vídeo vai acabar antes
+
+84
+00:02:28.230 --> 00:02:28.410
+daqui.
+
+85
+00:02:28.970 --> 00:02:30.230
+Cara, isso aqui é um projeto.
+
+86
+00:02:30.550 --> 00:02:31.870
+Se a gente quiser tocar aqui um gator
+
+87
+00:02:31.870 --> 00:02:33.890
+de pagamento, não é um projeto de um
+
+88
+00:02:33.890 --> 00:02:35.570
+vídeo de sei lá quanto tempo tem esse
+
+89
+00:02:35.570 --> 00:02:36.210
+vídeo, 20 minutos.
+
+90
+00:02:36.530 --> 00:02:39.490
+Isso é um vídeo de 5 dias para
+
+91
+00:02:39.490 --> 00:02:41.710
+ter um gator de minimamente funcional, eu acho.
+
+92
+00:02:41.890 --> 00:02:42.870
+E ainda vai ser tudo bugado.
+
+93
+00:02:43.170 --> 00:02:44.810
+Seu foco aqui é a qualidade dos documentos
+
+94
+00:02:44.810 --> 00:02:45.970
+que você cria e o seu aprendizado.
+
+95
+00:02:45.970 --> 00:02:48.290
+E você vai construindo uma knowledge base, uma
+
+96
+00:02:48.290 --> 00:02:49.110
+base de conhecimentos.
+
+97
+00:02:49.350 --> 00:02:50.390
+Então, vamos fazer isso aqui?
+
+98
+00:02:50.710 --> 00:02:52.450
+Vamos tocar um gator de pagamentos.
+
+99
+00:02:52.970 --> 00:02:54.110
+Agora, muito importante aqui, né?
+
+100
+00:02:54.450 --> 00:02:54.830
+Pagamentos.
+
+101
+00:02:55.150 --> 00:02:56.250
+O que eu estou falando de pagamentos?
+
+102
+00:02:56.390 --> 00:02:57.250
+Está na hora do mês de eu ser
+
+103
+00:02:57.250 --> 00:02:57.590
+pago.
+
+104
+00:02:57.810 --> 00:02:59.390
+Hoje eu trabalho como CTO, vou falar isso
+
+105
+00:02:59.390 --> 00:03:00.270
+até não poder mais.
+
+106
+00:03:00.550 --> 00:03:01.670
+Trabalho como Youtuber também.
+
+107
+00:03:01.970 --> 00:03:03.890
+E eu recebo esses meus pagamentos através da
+
+108
+00:03:03.890 --> 00:03:04.210
+High Globe.
+
+109
+00:03:04.430 --> 00:03:05.830
+High Globe é a parceira de mais longo
+
+110
+00:03:05.830 --> 00:03:06.470
+prazo do canal.
+
+111
+00:03:06.710 --> 00:03:09.010
+E você, que recebe em dólar, também vai
+
+112
+00:03:09.010 --> 00:03:10.910
+querer receber seus pagamentos pela High Globe.
+
+113
+00:03:11.030 --> 00:03:11.670
+É muito simples.
+
+114
+00:03:11.930 --> 00:03:13.870
+Eu não sei qual plataforma você usa para
+
+115
+00:03:13.870 --> 00:03:15.530
+receber dólares, se você não está usando a
+
+116
+00:03:15.530 --> 00:03:15.990
+High Globe, tá?
+
+117
+00:03:16.230 --> 00:03:17.350
+Porque a High Globe tem o menor custo
+
+118
+00:03:17.350 --> 00:03:18.610
+das plataformas que eu conheço, eu já usei
+
+119
+00:03:18.610 --> 00:03:20.090
+outras antigamente.
+
+120
+00:03:20.310 --> 00:03:21.750
+Hoje em dia, só a High Globe, porque
+
+121
+00:03:21.750 --> 00:03:23.710
+a taxa deles é de 0.5%, é
+
+122
+00:03:23.710 --> 00:03:24.550
+minúsculo, isso aqui não é nada.
+
+123
+00:03:24.750 --> 00:03:26.410
+Não tem mais nenhuma taxa escondida, né?
+
+124
+00:03:26.410 --> 00:03:27.290
+É só isso aqui mesmo.
+
+125
+00:03:27.470 --> 00:03:28.930
+O saque, ele é via PIX.
+
+126
+00:03:29.230 --> 00:03:30.990
+Então, ele cai na sua conta imediatamente, não
+
+127
+00:03:30.990 --> 00:03:33.110
+precisa esperar um tempão de processamento, né?
+
+128
+00:03:33.350 --> 00:03:35.630
+Seu PIX vai funcionar aqui, 365 dias no
+
+129
+00:03:35.630 --> 00:03:37.950
+ano, 24 horas por dia, né?
+
+130
+00:03:38.130 --> 00:03:40.290
+Não tem problema se é feriado, final de
+
+131
+00:03:40.290 --> 00:03:40.930
+semana, tanto faz.
+
+132
+00:03:40.990 --> 00:03:42.130
+A qualquer momento você pode sacar.
+
+133
+00:03:42.130 --> 00:03:44.870
+Se você quiser gastar o seu dinheiro recebido
+
+134
+00:03:44.870 --> 00:03:47.130
+dos Estados Unidos, você recebe em dólar, se
+
+135
+00:03:47.130 --> 00:03:48.230
+você, por algum motivo, quer fazer uma compra
+
+136
+00:03:48.230 --> 00:03:49.590
+em dólar, você pode ir lá na High
+
+137
+00:03:49.590 --> 00:03:52.290
+Globe, criar um cartãozinho pré-pago e gastar
+
+138
+00:03:52.290 --> 00:03:53.730
+esses dólares sem taxa nenhuma.
+
+139
+00:03:53.890 --> 00:03:55.690
+Claro, sem taxa se você gastar em dólares,
+
+140
+00:03:55.830 --> 00:03:55.950
+né?
+
+141
+00:03:56.090 --> 00:03:56.990
+Essa é a única empresa que eu uso
+
+142
+00:03:56.990 --> 00:03:58.050
+para receber dólar nos Estados Unidos.
+
+143
+00:03:58.370 --> 00:04:00.730
+É a melhor empresa para receber dinheiro do
+
+144
+00:04:00.730 --> 00:04:03.030
+seu contratante dos Estados Unidos, ou enfim, seu
+
+145
+00:04:03.030 --> 00:04:04.570
+contratante que paga em dólar de qualquer lugar
+
+146
+00:04:04.570 --> 00:04:04.910
+do mundo.
+
+147
+00:04:05.170 --> 00:04:06.450
+Eu vou te dar ainda um desconto em
+
+148
+00:04:06.450 --> 00:04:07.030
+cima disso aqui, tá?
+
+149
+00:04:07.290 --> 00:04:08.990
+Essa taxinha vai ficar menor ainda se você
+
+150
+00:04:08.990 --> 00:04:10.190
+usar o cupom AUGUSTO20.
+
+151
+00:04:10.190 --> 00:04:12.110
+Vou te dar 20% de desconto nisso
+
+152
+00:04:12.110 --> 00:04:13.230
+aqui nos três primeiros meses.
+
+153
+00:04:13.430 --> 00:04:15.029
+Clique no link na descrição e vem para
+
+154
+00:04:15.029 --> 00:04:16.029
+a High Globe, que é a melhor forma
+
+155
+00:04:16.029 --> 00:04:16.649
+de receber dólares.
+
+156
+00:04:16.930 --> 00:04:18.250
+Voltando ao nosso vídeo, a gente quer fazer
+
+157
+00:04:18.250 --> 00:04:19.550
+um gateway de pagamentos.
+
+158
+00:04:20.010 --> 00:04:21.730
+Eu não sei como fazer um gateway de
+
+159
+00:04:21.730 --> 00:04:22.310
+pagamentos, né?
+
+160
+00:04:22.390 --> 00:04:23.610
+Então a primeira coisa que eu vou fazer,
+
+161
+00:04:23.890 --> 00:04:24.910
+já tem uma ideia aqui, né?
+
+162
+00:04:24.930 --> 00:04:27.470
+Check, vamos fazer um brainstorming de soluções e
+
+163
+00:04:27.470 --> 00:04:28.550
+também buscar uns artigos.
+
+164
+00:04:28.870 --> 00:04:30.210
+Abro aqui uma LLM, né?
+
+165
+00:04:30.210 --> 00:04:31.610
+Eu gosto de usar mais de uma e
+
+166
+00:04:31.610 --> 00:04:32.470
+a gente tem que ter um cuidado com
+
+167
+00:04:32.470 --> 00:04:33.310
+especial no prompt, né?
+
+168
+00:04:33.690 --> 00:04:35.190
+Idealmente, você vai ter uns prompts já pré
+
+169
+00:04:35.190 --> 00:04:35.770
+-prontos, né?
+
+170
+00:04:35.910 --> 00:04:38.670
+Você vai construir ali um arquivo, algo no
+
+171
+00:04:38.670 --> 00:04:41.290
+Obsidian, no Notion, algum lugar onde você armazena
+
+172
+00:04:41.290 --> 00:04:43.650
+prompts pré-prontos, que você escreveu ali com
+
+173
+00:04:43.650 --> 00:04:44.710
+um certo cuidado, ou que você deixou na
+
+174
+00:04:44.710 --> 00:04:47.650
+internet mesmo, para diferentes utilidades, né?
+
+175
+00:04:47.650 --> 00:04:48.710
+Para você não ter que redigir todo o
+
+176
+00:04:48.710 --> 00:04:49.290
+prompt ali na mão.
+
+177
+00:04:49.470 --> 00:04:51.070
+Eu vou redir um na mão, super simples,
+
+178
+00:04:51.390 --> 00:04:52.230
+só para mostrar aqui a ideia.
+
+179
+00:04:52.490 --> 00:04:54.090
+Então, eu quero criar um gateway de pagamentos.
+
+180
+00:04:54.450 --> 00:04:55.670
+Eu falei aqui para a LLM, né?
+
+181
+00:04:55.830 --> 00:04:58.770
+Primeiro passo é analisar diferentes possibilidades de stacks
+
+182
+00:04:58.770 --> 00:05:00.130
+e de arquiteturas, né?
+
+183
+00:05:00.250 --> 00:05:01.610
+Então, eu quero criar um gateway de pagamentos.
+
+184
+00:05:01.870 --> 00:05:03.990
+Primeiro passo é analisar as possibilidades de stacks
+
+185
+00:05:03.990 --> 00:05:04.590
+e arquiteturas.
+
+186
+00:05:04.870 --> 00:05:07.730
+Por favor, me providencie com três planos diferentes,
+
+187
+00:05:07.730 --> 00:05:10.630
+com stacks diferentes e arquiteturas diferentes em como
+
+188
+00:05:10.630 --> 00:05:12.130
+implementar um gateway de pagamentos.
+
+189
+00:05:12.430 --> 00:05:14.090
+Quais LLMs que são boas, né?
+
+190
+00:05:14.270 --> 00:05:15.890
+O O1 é bem inteligente para esse tipo
+
+191
+00:05:15.890 --> 00:05:16.530
+de raciocínio.
+
+192
+00:05:16.770 --> 00:05:18.530
+Gemini 2.5 está bom, Cloudstone Edge 3
+
+193
+00:05:18.530 --> 00:05:19.210
+.7 está bom.
+
+194
+00:05:19.410 --> 00:05:20.290
+O Grok está bom também.
+
+195
+00:05:20.370 --> 00:05:20.950
+Vamos fazer o seguinte.
+
+196
+00:05:21.290 --> 00:05:22.870
+Vou jogar esse prompt no O1, vou copiar
+
+197
+00:05:22.870 --> 00:05:23.950
+o mesmo prompt, certo?
+
+198
+00:05:24.010 --> 00:05:25.570
+Envio aqui para o O1, abri outra aba
+
+199
+00:05:25.570 --> 00:05:28.510
+aqui, mesmo prompt para o Grok, mesmo prompt
+
+200
+00:05:28.510 --> 00:05:31.390
+para o Gemini, de repente.
+
+201
+00:05:31.890 --> 00:05:32.790
+Bom, o que o O1 me deu?
+
+202
+00:05:32.890 --> 00:05:36.310
+Plano 1, Node.js com Express e Microservices,
+
+203
+00:05:36.470 --> 00:05:36.590
+né?
+
+204
+00:05:36.590 --> 00:05:38.170
+De cara eu identifiquei que tem um problema
+
+205
+00:05:38.170 --> 00:05:40.530
+aqui no meu prompt e eu quero que
+
+206
+00:05:40.530 --> 00:05:42.290
+ele contraste as diferentes cores que eu posso
+
+207
+00:05:42.290 --> 00:05:42.490
+tomar.
+
+208
+00:05:42.790 --> 00:05:44.930
+Então, por favor, contraste eles com pros e
+
+209
+00:05:44.930 --> 00:05:45.610
+cons de cada, né?
+
+210
+00:05:45.610 --> 00:05:47.210
+Eu quero saber por que eu escolheria um
+
+211
+00:05:47.210 --> 00:05:48.330
+e por que eu escolheria outro.
+
+212
+00:05:48.530 --> 00:05:49.470
+Mas vamos dar uma olhada aqui, né?
+
+213
+00:05:49.730 --> 00:05:52.490
+Node.js, Express e Microservices, vai dar uma
+
+214
+00:05:52.490 --> 00:05:53.930
+alta concorrência aqui.
+
+215
+00:05:54.370 --> 00:05:55.330
+Bom, bacana, decente.
+
+216
+00:05:55.690 --> 00:05:59.550
+Java Spring Boot em uma arquitetura monolítica, solução
+
+217
+00:05:59.550 --> 00:06:00.570
+interessante.
+
+218
+00:06:00.790 --> 00:06:02.230
+Python com Django Flash, não.
+
+219
+00:06:02.990 --> 00:06:04.070
+Django, Django não deu.
+
+220
+00:06:04.230 --> 00:06:05.790
+Flash que a gente pode estar tolerando, tá?
+
+221
+00:06:05.790 --> 00:06:07.230
+Vamos ver, pros e cons de cada um,
+
+222
+00:06:07.290 --> 00:06:07.390
+né?
+
+223
+00:06:07.610 --> 00:06:09.570
+Node.js dá uma performance excelente.
+
+224
+00:06:10.370 --> 00:06:12.190
+Aqui a gente pode começar a questionar aí,
+
+225
+00:06:12.370 --> 00:06:14.530
+será que Node.js dá uma performance excelente
+
+226
+00:06:14.530 --> 00:06:16.370
+em cenário de alta concorrência?
+
+227
+00:06:16.630 --> 00:06:19.310
+Não sei se a gente está falando do
+
+228
+00:06:19.310 --> 00:06:20.490
+mesmo Node.js aqui.
+
+229
+00:06:20.750 --> 00:06:22.290
+É uma performance boa, mas não é tão
+
+230
+00:06:22.290 --> 00:06:22.810
+boa assim.
+
+231
+00:06:23.050 --> 00:06:23.650
+Lados negativos.
+
+232
+00:06:24.130 --> 00:06:26.230
+Microservices podem introduzir overhead, não sei o que,
+
+233
+00:06:26.350 --> 00:06:26.870
+correto.
+
+234
+00:06:27.110 --> 00:06:28.350
+E aqui, enfim, vai falar do Java Spring
+
+235
+00:06:28.350 --> 00:06:29.710
+Boot, vai falar do Python também, né?
+
+236
+00:06:29.770 --> 00:06:31.510
+O que o Gemini aqui me deu?
+
+237
+00:06:31.510 --> 00:06:33.970
+Robust Enterprise Microservices, né?
+
+238
+00:06:34.130 --> 00:06:35.530
+Java Spring Ecosystem.
+
+239
+00:06:35.810 --> 00:06:37.270
+Agile Modern Hybrid.
+
+240
+00:06:37.490 --> 00:06:39.730
+Python barra Node.js mais serverless.
+
+241
+00:06:40.050 --> 00:06:41.610
+High Performance Specialist.
+
+242
+00:06:41.730 --> 00:06:43.190
+Go mais Microservices.
+
+243
+00:06:43.330 --> 00:06:45.690
+É, o Gemini parece que está mais inteligente,
+
+244
+00:06:45.770 --> 00:06:45.870
+tá?
+
+245
+00:06:45.930 --> 00:06:47.510
+Não me deu uma resposta que eu achei
+
+246
+00:06:47.510 --> 00:06:49.010
+muito detalhada, não achei muito legal.
+
+247
+00:06:49.310 --> 00:06:50.290
+Isso que eu achei bem legal, tá?
+
+248
+00:06:50.290 --> 00:06:52.010
+Que ele dá um racional aqui de alta
+
+249
+00:06:52.010 --> 00:06:54.170
+scalability, fault isolation.
+
+250
+00:06:54.590 --> 00:06:56.130
+E o Grok parece que travou, né?
+
+251
+00:06:56.130 --> 00:06:58.030
+Está muito ocupado respondendo vocês lá no Twitter,
+
+252
+00:06:58.150 --> 00:06:58.310
+parece.
+
+253
+00:06:58.730 --> 00:06:59.790
+É, o Grok travou.
+
+254
+00:06:59.790 --> 00:07:01.050
+Está lá no Twitter falando com vocês.
+
+255
+00:07:01.290 --> 00:07:02.190
+Cloud Sonnet, posso perguntar?
+
+256
+00:07:02.230 --> 00:07:03.650
+Mas enfim, vocês pegaram a ideia, né?
+
+257
+00:07:03.730 --> 00:07:05.790
+Cloud Sonnet também me deu aqui várias opções.
+
+258
+00:07:06.130 --> 00:07:07.690
+Aqui na Stack ele foi mais detalhado, né?
+
+259
+00:07:07.790 --> 00:07:10.170
+Foi aqui, Postgres for Transactional Data, Mongo for
+
+260
+00:07:10.170 --> 00:07:11.070
+Logs and Events.
+
+261
+00:07:11.490 --> 00:07:12.870
+É, Kafka for Streaming Events.
+
+262
+00:07:13.190 --> 00:07:16.210
+Depois a gente volta nesses documentos aqui, tá?
+
+263
+00:07:16.430 --> 00:07:18.550
+Gostei do do Cloud, gostei do do Gemini.
+
+264
+00:07:18.770 --> 00:07:20.010
+Vamos supor que eu dei uma lida aqui,
+
+265
+00:07:20.090 --> 00:07:20.190
+tá?
+
+266
+00:07:20.390 --> 00:07:21.290
+E eu gostei disso aqui.
+
+267
+00:07:21.550 --> 00:07:22.690
+Go mais Microservices.
+
+268
+00:07:22.870 --> 00:07:24.550
+Quero fazer em Go, quero aprender em Go.
+
+269
+00:07:24.730 --> 00:07:27.030
+Quero aprender Microservices, certo?
+
+270
+00:07:27.390 --> 00:07:28.730
+Vamos ver se alguém já fez isso aqui.
+
+271
+00:07:28.730 --> 00:07:31.610
+Tem esse chat aqui, muito pouco utilizado, que
+
+272
+00:07:31.610 --> 00:07:32.150
+é o Google, né?
+
+273
+00:07:32.170 --> 00:07:33.230
+Esse chat aqui é bem forte.
+
+274
+00:07:33.550 --> 00:07:36.350
+Eu posso vir aqui, ó, Creating a Payment
+
+275
+00:07:36.350 --> 00:07:37.310
+Gateway with Golang.
+
+276
+00:07:37.450 --> 00:07:38.750
+Não sei se vai aparecer o que eu
+
+277
+00:07:38.750 --> 00:07:38.890
+quero.
+
+278
+00:07:39.150 --> 00:07:42.630
+Aqui, ó, Complete Guide to Payment System Integration.
+
+279
+00:07:43.350 --> 00:07:44.210
+Interessante, certo?
+
+280
+00:07:44.310 --> 00:07:45.010
+Posso abrir aqui.
+
+281
+00:07:45.370 --> 00:07:47.730
+Esse aqui, Create a Secure Payment Gateway in
+
+282
+00:07:47.730 --> 00:07:48.770
+Go, também está legal.
+
+283
+00:07:49.110 --> 00:07:50.310
+Mas de repente a gente pode separar, né?
+
+284
+00:07:50.310 --> 00:07:52.290
+Posso separar a parte do Go com o
+
+285
+00:07:52.290 --> 00:07:52.950
+Payment Gateway.
+
+286
+00:07:53.110 --> 00:07:54.170
+Então, vamos deletar o Go.
+
+287
+00:07:54.310 --> 00:07:55.170
+Vamos dar um Enter aqui.
+
+288
+00:07:55.570 --> 00:07:57.590
+E, bom, Sponsor, Sponsor, Sponsor.
+
+289
+00:07:57.590 --> 00:07:59.130
+Aqui a própria Stripe, né?
+
+290
+00:07:59.190 --> 00:08:01.370
+How to Create Your Own Payment Processor or
+
+291
+00:08:01.370 --> 00:08:01.790
+Gateway.
+
+292
+00:08:02.170 --> 00:08:03.250
+Ih, aqui no Red, né?
+
+293
+00:08:03.450 --> 00:08:06.010
+How to Build a Payment Gateway from Scratch.
+
+294
+00:08:06.030 --> 00:08:06.390
+Que loucura.
+
+295
+00:08:06.630 --> 00:08:07.930
+Esse aqui, ó, Dash Devs.
+
+296
+00:08:07.990 --> 00:08:08.430
+Gostei desse aqui.
+
+297
+00:08:08.630 --> 00:08:10.250
+Aí, cara, você vai ler esses artigos aqui,
+
+298
+00:08:10.350 --> 00:08:10.450
+tá?
+
+299
+00:08:10.670 --> 00:08:12.270
+Por exemplo, aqui, eu vi que está falando
+
+300
+00:08:12.270 --> 00:08:15.590
+de Stripe, OpenSSL, Docker.
+
+301
+00:08:15.890 --> 00:08:18.330
+Vai listar documentação relevante, vai falar o que
+
+302
+00:08:18.330 --> 00:08:19.630
+você precisa fazer, né?
+
+303
+00:08:19.870 --> 00:08:22.610
+Isso daqui, esse site aqui, certo?
+
+304
+00:08:22.650 --> 00:08:25.750
+Isso aqui eu posso usar como documentação para
+
+305
+00:08:25.750 --> 00:08:26.790
+minha LLM seguir.
+
+306
+00:08:26.790 --> 00:08:28.450
+No caso, eu peguei um exemplo de algo
+
+307
+00:08:28.450 --> 00:08:29.890
+bem complexo, né?
+
+308
+00:08:30.110 --> 00:08:32.330
+É, ó, esse aqui parece legal também, tá?
+
+309
+00:08:32.530 --> 00:08:34.909
+Payment System Integration with Golang for Backend Application.
+
+310
+00:08:35.090 --> 00:08:36.010
+Esse aqui está bem legal.
+
+311
+00:08:36.150 --> 00:08:36.890
+Está bem detalhado.
+
+312
+00:08:37.230 --> 00:08:38.909
+Supondo que eu lia esses artigos, eu validei
+
+313
+00:08:38.909 --> 00:08:40.610
+que esses artigos são de boa qualidade, certo?
+
+314
+00:08:40.690 --> 00:08:42.070
+Deixo eles aqui reservados para depois.
+
+315
+00:08:42.429 --> 00:08:43.610
+O que a gente precisa fazer, a gente
+
+316
+00:08:43.610 --> 00:08:44.970
+já está no brainstorming de soluções e no
+
+317
+00:08:44.970 --> 00:08:45.730
+buscar artigos, tá?
+
+318
+00:08:45.730 --> 00:08:47.170
+O que a gente precisa fazer aqui agora
+
+319
+00:08:47.170 --> 00:08:49.070
+é, de fato, debater para entender as coisas.
+
+320
+00:08:49.370 --> 00:08:50.470
+O que me foi dado aqui, na verdade,
+
+321
+00:08:50.570 --> 00:08:52.270
+é um linguagem em que eu, Augusto, estou
+
+322
+00:08:52.270 --> 00:08:53.590
+bastante confortável com isso daqui.
+
+323
+00:08:53.790 --> 00:08:55.390
+Certo, eu trabalho com sistema de pagamentos, eu
+
+324
+00:08:55.390 --> 00:08:56.490
+conheço essas techs aqui.
+
+325
+00:08:56.710 --> 00:08:58.910
+O que a gente deveria fazer nesse caso...
+
+326
+00:08:58.910 --> 00:09:00.390
+Vamos supor que eu gostei desse plano aqui,
+
+327
+00:09:00.570 --> 00:09:00.670
+tá?
+
+328
+00:09:00.670 --> 00:09:01.750
+Gostei do plano 3.
+
+329
+00:09:01.970 --> 00:09:03.770
+Eu vou querer esse plano 3, querer pegar
+
+330
+00:09:03.770 --> 00:09:05.130
+uns pedacinhos aqui de outros planos, né?
+
+331
+00:09:05.350 --> 00:09:06.750
+Aqui eu vou começar a questionar a IA,
+
+332
+00:09:06.930 --> 00:09:07.050
+tá?
+
+333
+00:09:07.210 --> 00:09:08.430
+Supondo que eu quero aqui, ó, gostei de
+
+334
+00:09:08.430 --> 00:09:10.670
+Golang, vou usar Golang como minha linguagem back
+
+335
+00:09:10.670 --> 00:09:10.930
+-end.
+
+336
+00:09:11.190 --> 00:09:13.450
+Gostei dessa sugestão aqui, ó, PostgreSQL for Transactional
+
+337
+00:09:13.450 --> 00:09:14.710
+Data among the Before Events.
+
+338
+00:09:14.970 --> 00:09:16.850
+Gostei de Kafka para Message Queue.
+
+339
+00:09:17.150 --> 00:09:18.530
+Vai ser um overkill absurdo, você vai demorar
+
+340
+00:09:18.530 --> 00:09:20.170
+um mês aprendendo Kafka, mas vai ser legal.
+
+341
+00:09:20.450 --> 00:09:21.890
+Cloud Provider, AWS é o único.
+
+342
+00:09:22.210 --> 00:09:24.190
+Sugerei aqui um Kubernetes, você vai demorar outro
+
+343
+00:09:24.190 --> 00:09:25.110
+mês aprendendo Kubernetes, né?
+
+344
+00:09:25.330 --> 00:09:27.410
+Aqui a gente tem oportunidade de aprendizado.
+
+345
+00:09:27.730 --> 00:09:31.170
+Falou PostgreSQL for Transactional Data among the Before
+
+346
+00:09:31.170 --> 00:09:31.930
+Logs and Events.
+
+347
+00:09:32.150 --> 00:09:32.570
+Por quê?
+
+348
+00:09:32.950 --> 00:09:34.630
+Eu, por acaso, sei o porquê disso, tá
+
+349
+00:09:34.630 --> 00:09:35.030
+correto.
+
+350
+00:09:35.130 --> 00:09:36.110
+Mas aqui, ó, why?
+
+351
+00:09:36.370 --> 00:09:37.930
+E aí eu pergunto por que PostgreSQL para
+
+352
+00:09:37.930 --> 00:09:40.810
+Transactional Data e Mongo para Logs and Events.
+
+353
+00:09:40.950 --> 00:09:41.810
+Pergunta para a IA, a IA vai te
+
+354
+00:09:41.810 --> 00:09:42.070
+responder.
+
+355
+00:09:42.390 --> 00:09:44.650
+E aqui ela vai falar que, corretamente, que
+
+356
+00:09:44.650 --> 00:09:47.810
+a estratégia de dividir a base de dados
+
+357
+00:09:47.810 --> 00:09:49.210
+vem da natureza, né?
+
+358
+00:09:49.230 --> 00:09:51.550
+De dados transacionais versus logs.
+
+359
+00:09:51.550 --> 00:09:53.910
+Você quer que seus dados transacionais sejam ACID
+
+360
+00:09:53.910 --> 00:09:58.010
+compliant, que elas tenham atomizidade, consistência, isolation e
+
+361
+00:09:58.010 --> 00:09:59.830
+durability, porque isso é importante, certo?
+
+362
+00:09:59.850 --> 00:10:02.090
+Você não quer perder dados transacionais, é o
+
+363
+00:10:02.090 --> 00:10:02.850
+core da sua empresa.
+
+364
+00:10:03.090 --> 00:10:04.330
+E logs e eventos, o que ele vai
+
+365
+00:10:04.330 --> 00:10:04.950
+justificar aqui?
+
+366
+00:10:05.150 --> 00:10:06.610
+Bom, schema flexibility, né?
+
+367
+00:10:06.630 --> 00:10:09.190
+Logs é esquema flexível e write performance.
+
+368
+00:10:09.330 --> 00:10:10.270
+Tá correto também, né?
+
+369
+00:10:10.470 --> 00:10:13.070
+Essas duas justificativas aqui justificam a escolha de
+
+370
+00:10:13.070 --> 00:10:16.570
+Mongo para Logs e essa justificativa aqui de
+
+371
+00:10:16.570 --> 00:10:19.750
+ACID justifica PostgreSQL para Transactional Data.
+
+372
+00:10:19.890 --> 00:10:20.910
+Então, correto, certo?
+
+373
+00:10:21.890 --> 00:10:23.710
+Baseado nisso aqui agora, o que eu vou
+
+374
+00:10:23.710 --> 00:10:23.990
+fazer?
+
+375
+00:10:24.290 --> 00:10:26.210
+Certo, abri ali, colei aqui no Notion umas
+
+376
+00:10:26.210 --> 00:10:28.530
+paradas, peguei aqui, vamos colar mais coisas no
+
+377
+00:10:28.530 --> 00:10:29.070
+Notion também.
+
+378
+00:10:29.270 --> 00:10:31.450
+Agora, baseado nessas coisas que a IA me
+
+379
+00:10:31.450 --> 00:10:32.070
+deu aqui, né?
+
+380
+00:10:32.310 --> 00:10:34.710
+Eu vou, de repente, pegar essa estrutura aqui
+
+381
+00:10:34.710 --> 00:10:36.710
+que eu gostei dela e fazer umas alterações.
+
+382
+00:10:36.890 --> 00:10:38.150
+Por exemplo, eu não quero que seja Node
+
+383
+00:10:38.150 --> 00:10:38.690
+.js, tá?
+
+384
+00:10:38.930 --> 00:10:40.170
+Eu vou apagar isso aqui de back-end
+
+385
+00:10:40.170 --> 00:10:40.710
+e vamos lá.
+
+386
+00:10:40.790 --> 00:10:43.430
+Golang, de repente eu gostei disso daqui, ó,
+
+387
+00:10:43.430 --> 00:10:44.630
+esse tal de Gin aqui.
+
+388
+00:10:44.970 --> 00:10:46.750
+Go with Gin Framework.
+
+389
+00:10:46.990 --> 00:10:47.950
+E aqui nota que isso aqui vai te
+
+390
+00:10:47.950 --> 00:10:49.470
+dar a oportunidade de pesquisar sobre todas essas
+
+391
+00:10:49.470 --> 00:10:49.930
+coisas, né?
+
+392
+00:10:49.930 --> 00:10:51.490
+Eu não sei o que é um Gin
+
+393
+00:10:51.490 --> 00:10:53.390
+Framework, eu só cheguei aqui aleatoriamente porque a
+
+394
+00:10:53.390 --> 00:10:55.490
+LLM me deu, mas eu posso questionar ela
+
+395
+00:10:55.490 --> 00:10:55.990
+sobre isso aqui.
+
+396
+00:10:56.150 --> 00:10:57.630
+Certo, agora eu sei o porquê do Postgres
+
+397
+00:10:57.630 --> 00:10:58.850
+e o porquê do Mongo, mas eu posso
+
+398
+00:10:58.850 --> 00:11:00.170
+pedir por alternativas, né?
+
+399
+00:11:00.290 --> 00:11:02.670
+O que você sugeriria ao invés de Postgres,
+
+400
+00:11:02.750 --> 00:11:03.410
+ao invés de Mongo?
+
+401
+00:11:03.690 --> 00:11:04.390
+Eu posso questionar.
+
+402
+00:11:04.530 --> 00:11:05.530
+Kafka é necessário?
+
+403
+00:11:05.610 --> 00:11:06.850
+A gente quer usar Kafka mesmo?
+
+404
+00:11:07.130 --> 00:11:07.830
+Questiona tudo, tá?
+
+405
+00:11:08.030 --> 00:11:09.170
+Mas, enfim, peguei aqui.
+
+406
+00:11:09.370 --> 00:11:10.610
+Vamos voltar aqui para a LLM.
+
+407
+00:11:10.950 --> 00:11:12.310
+Eu vou fazer o seguinte, ó.
+
+408
+00:11:12.470 --> 00:11:13.570
+Certo, eu vou lá para a LLM que
+
+409
+00:11:13.570 --> 00:11:16.190
+eu vou dar para ela um auto-overview
+
+410
+00:11:16.190 --> 00:11:17.610
+do que eu quero e um documento de
+
+411
+00:11:17.610 --> 00:11:18.470
+alguém que fez algo parecido.
+
+412
+00:11:18.470 --> 00:11:20.230
+Eu quero que ela escreva um PRD em
+
+413
+00:11:20.230 --> 00:11:21.210
+como cumprir isso, né?
+
+414
+00:11:21.370 --> 00:11:22.850
+Então aqui, my plan.
+
+415
+00:11:23.170 --> 00:11:24.650
+Isso aqui, esses prompts aqui, não estão bons,
+
+416
+00:11:24.730 --> 00:11:24.830
+tá?
+
+417
+00:11:24.890 --> 00:11:25.890
+Você vai ter que ir testando.
+
+418
+00:11:26.290 --> 00:11:27.730
+É um processo iterativo.
+
+419
+00:11:27.930 --> 00:11:29.370
+E construindo a sua base de prompts.
+
+420
+00:11:29.830 --> 00:11:31.450
+Documentação do engenheiro que fez isso no passado.
+
+421
+00:11:31.710 --> 00:11:31.910
+Cadê?
+
+422
+00:11:32.010 --> 00:11:32.690
+Eu vou pegar isso daqui.
+
+423
+00:11:32.990 --> 00:11:34.530
+Vou pegar todo o documento aqui, ó.
+
+424
+00:11:34.750 --> 00:11:35.450
+Copiei, colei.
+
+425
+00:11:35.730 --> 00:11:37.250
+Então, eu vou escrever um PRD em como
+
+426
+00:11:37.250 --> 00:11:39.970
+conseguir o meu Payment Gateway, né?
+
+427
+00:11:40.090 --> 00:11:41.990
+Cara, o Cláudio Sonnetti me deu um docx
+
+428
+00:11:41.990 --> 00:11:42.410
+aqui.
+
+429
+00:11:42.670 --> 00:11:44.170
+Vamos baixar esse vírus aqui que ele mandou,
+
+430
+00:11:44.210 --> 00:11:44.310
+né?
+
+431
+00:11:45.110 --> 00:11:47.810
+Enfim, tem aqui um PRDzinho.
+
+432
+00:11:47.810 --> 00:11:50.430
+Escrevendo todas as coisas, tá?
+
+433
+00:11:50.770 --> 00:11:53.410
+É uma descrição abusivamente enorme.
+
+434
+00:11:53.810 --> 00:11:55.670
+E aqui você tem partes extremamente interessantes, né?
+
+435
+00:11:55.670 --> 00:11:57.170
+Como, por exemplo, o Dataflow.
+
+436
+00:11:57.310 --> 00:11:57.950
+Fluxo de dados.
+
+437
+00:11:58.270 --> 00:12:01.890
+O Payment Gateway implementa uma arquitetura event-driven,
+
+438
+00:12:01.990 --> 00:12:02.150
+né?
+
+439
+00:12:02.290 --> 00:12:03.170
+Usando Kafka.
+
+440
+00:12:03.490 --> 00:12:05.530
+E no AutoNeuron funciona da seguinte forma.
+
+441
+00:12:05.710 --> 00:12:07.650
+O cliente manda o pagamento, os jubilados de
+
+442
+00:12:07.650 --> 00:12:09.330
+pagamento, via o API Gateway.
+
+443
+00:12:09.410 --> 00:12:12.470
+O API Gateway autentica as rotas e manda
+
+444
+00:12:12.470 --> 00:12:14.610
+para o Payment Processing Service.
+
+445
+00:12:14.870 --> 00:12:16.350
+Aqui, bom, você já pode se perguntar, por
+
+446
+00:12:16.350 --> 00:12:19.190
+exemplo, o que é um API Gateway?
+
+447
+00:12:19.530 --> 00:12:21.030
+E, cara, vai estudando, vai sanando suas dúvidas,
+
+448
+00:12:21.150 --> 00:12:23.190
+vai pesquisando por artigo, vai lendo o que
+
+449
+00:12:23.190 --> 00:12:24.370
+são essas coisas que você não entende.
+
+450
+00:12:24.590 --> 00:12:26.810
+Mas isso aqui vai ser um overview provavelmente
+
+451
+00:12:26.810 --> 00:12:28.690
+decente, que eu não analisei com muita calma,
+
+452
+00:12:28.930 --> 00:12:31.150
+de como implementar um Gateway de pagamento.
+
+453
+00:12:31.510 --> 00:12:34.350
+O Gemini também pedi para ele gerar um,
+
+454
+00:12:34.530 --> 00:12:34.630
+né?
+
+455
+00:12:34.690 --> 00:12:35.710
+Também me deu um legal aqui.
+
+456
+00:12:36.030 --> 00:12:38.110
+A gente pode pedir também um ADR mais
+
+457
+00:12:38.110 --> 00:12:39.910
+ODR.  Eu acho que nesse momento não é
+
+458
+00:12:39.910 --> 00:12:41.130
+tão válido assim.
+
+459
+00:12:41.330 --> 00:12:43.490
+E, certo, a gente tem documentos aqui que
+
+460
+00:12:43.490 --> 00:12:46.490
+dizem mais ou menos como a gente implementaria
+
+461
+00:12:46.490 --> 00:12:47.510
+isso, qual que é a nossa ideia de
+
+462
+00:12:47.510 --> 00:12:48.550
+solução, como é que a gente vai partir
+
+463
+00:12:48.550 --> 00:12:48.770
+daqui.
+
+464
+00:12:49.010 --> 00:12:50.830
+Com isso aqui, você pode jogar numa IA
+
+465
+00:12:50.830 --> 00:12:52.490
+e tentar pedir para ela gerar tudo, num
+
+466
+00:12:52.490 --> 00:12:53.470
+agente de IA, né?
+
+467
+00:12:53.670 --> 00:12:54.470
+Vai dar certo?
+
+468
+00:12:54.970 --> 00:12:56.330
+Provavelmente não vai dar certo.
+
+469
+00:12:56.550 --> 00:12:57.590
+A estrutura vai ficar boa?
+
+470
+00:12:57.990 --> 00:12:58.910
+Provavelmente também não.
+
+471
+00:12:59.090 --> 00:13:01.350
+Isso daqui, de repente, o que a gente
+
+472
+00:13:01.350 --> 00:13:02.930
+pode fazer, essa etapa eu esqueci de colocar
+
+473
+00:13:02.930 --> 00:13:04.430
+lá, pedir para a IA criar um roadmap
+
+474
+00:13:04.430 --> 00:13:06.610
+para implementar tudo isso, depois a gente pode
+
+475
+00:13:06.610 --> 00:13:07.510
+ir vendo coisa a coisa.
+
+476
+00:13:07.750 --> 00:13:09.190
+Então, isso aqui a gente deixa salvo como
+
+477
+00:13:09.190 --> 00:13:09.930
+nosso PRD, né?
+
+478
+00:13:10.110 --> 00:13:11.470
+Supondo que a gente revisou isso daqui, que
+
+479
+00:13:11.470 --> 00:13:12.890
+a gente leu, que a gente pesquisou, que
+
+480
+00:13:12.890 --> 00:13:13.490
+a gente tinha dúvida.
+
+481
+00:13:13.730 --> 00:13:15.450
+Isso aqui é o nosso PRD, Product Requirement
+
+482
+00:13:15.450 --> 00:13:16.810
+Document, isso aqui a gente pode usar para
+
+483
+00:13:16.810 --> 00:13:17.290
+IAs depois.
+
+484
+00:13:17.690 --> 00:13:18.870
+Idealmente, você quer ir construindo...
+
+485
+00:13:18.870 --> 00:13:19.790
+Eu estou aqui no meu Notion, tá?
+
+486
+00:13:20.090 --> 00:13:21.670
+Eu tenho uma coisa de documentação aqui no
+
+487
+00:13:21.670 --> 00:13:22.730
+Notion, que eu tenho...
+
+488
+00:13:22.730 --> 00:13:24.010
+Enfim, não vou abrir tudo, porque senão eu
+
+489
+00:13:24.010 --> 00:13:25.190
+vou licar um monte de vídeo meu.
+
+490
+00:13:25.310 --> 00:13:26.790
+Mas tem os documentos aqui, a gente pode
+
+491
+00:13:26.790 --> 00:13:28.810
+criar, por exemplo, um novo, uma nova página
+
+492
+00:13:28.810 --> 00:13:30.730
+aqui, por exemplo, que é Payment Gateway.
+
+493
+00:13:31.170 --> 00:13:33.210
+A gente tem aquele PRD lá, né?
+
+494
+00:13:33.390 --> 00:13:34.510
+E aqui, ó, me deu até um roadmap,
+
+495
+00:13:34.750 --> 00:13:36.510
+um como fazer as coisas.
+
+496
+00:13:36.890 --> 00:13:37.770
+Nota, ele está me dando um monte de
+
+497
+00:13:37.770 --> 00:13:38.610
+coisas que eu não vou querer fazer.
+
+498
+00:13:38.610 --> 00:13:40.670
+Isso aqui é um projeto de brincadeira, né?
+
+499
+00:13:40.850 --> 00:13:43.750
+Não tem Success Criteria, não vai ter Trello,
+
+500
+00:13:43.830 --> 00:13:44.150
+Gira.
+
+501
+00:13:44.470 --> 00:13:47.850
+Git Repository vai ter, Microservices vai ter que
+
+502
+00:13:47.850 --> 00:13:49.050
+ter, porque foi o que a gente escolheu.
+
+503
+00:13:49.270 --> 00:13:50.850
+Você pode pegar esse roadmap e ir fazendo
+
+504
+00:13:50.850 --> 00:13:51.530
+coisa por coisa.
+
+505
+00:13:51.770 --> 00:13:53.710
+E a partir disso aqui, né, vamos pegar
+
+506
+00:13:53.710 --> 00:13:54.830
+esse aqui, por exemplo, tá?
+
+507
+00:13:55.070 --> 00:13:56.070
+Essa aqui é a primeira tarefa que eu
+
+508
+00:13:56.070 --> 00:13:56.370
+vou fazer.
+
+509
+00:13:56.710 --> 00:13:58.810
+Documentar API Contract Service Boundaries.
+
+510
+00:13:59.110 --> 00:14:00.290
+Eu tenho meus documentos de como é para
+
+511
+00:14:00.290 --> 00:14:01.210
+ser feito, certo?
+
+512
+00:14:01.550 --> 00:14:03.250
+O primeiro passo que eu vou tomar para
+
+513
+00:14:03.250 --> 00:14:04.530
+fazer meu Gateway de pagamento é isso aqui.
+
+514
+00:14:04.890 --> 00:14:06.590
+E isso daqui, então, eu vou querer pegar,
+
+515
+00:14:06.870 --> 00:14:08.150
+eu vou querer criar uma documentação, né?
+
+516
+00:14:08.150 --> 00:14:09.870
+Eu vou querer criar aqui, How to Create
+
+517
+00:14:09.870 --> 00:14:10.710
+API Contract.
+
+518
+00:14:10.930 --> 00:14:11.970
+E aí eu vou aprender como fazer isso,
+
+519
+00:14:12.070 --> 00:14:12.170
+né?
+
+520
+00:14:12.170 --> 00:14:13.750
+Eu posso usar LLMs ou posso não usar.
+
+521
+00:14:14.030 --> 00:14:15.250
+Aqui, no final, eu vou ter um artigo
+
+522
+00:14:15.250 --> 00:14:15.590
+escrito.
+
+523
+00:14:15.830 --> 00:14:16.790
+Aqui eu vou usar uma E também, né?
+
+524
+00:14:16.790 --> 00:14:18.090
+Eu não recomendo que você faça isso.
+
+525
+00:14:18.270 --> 00:14:19.270
+Não é para fazer isso aqui.
+
+526
+00:14:19.450 --> 00:14:21.330
+Isso aqui você vai estar estocando o vento,
+
+527
+00:14:21.370 --> 00:14:21.470
+tá?
+
+528
+00:14:21.630 --> 00:14:23.450
+Você vai estar pedindo para a EA criar
+
+529
+00:14:23.450 --> 00:14:25.290
+um documento que você pode, ao invés de
+
+530
+00:14:25.290 --> 00:14:25.830
+só...
+
+531
+00:14:25.830 --> 00:14:27.910
+Você pode pedir, tipo, não tem por que
+
+532
+00:14:27.910 --> 00:14:28.870
+eu salvar isso daqui.
+
+533
+00:14:29.070 --> 00:14:30.310
+Eu posso só pedir para o chat, GPT
+
+534
+00:14:30.310 --> 00:14:31.930
+ou qualquer EA, todas as vezes, né?
+
+535
+00:14:32.070 --> 00:14:35.310
+Mas, enfim, eu vou querer estudar como criar
+
+536
+00:14:35.310 --> 00:14:37.110
+uma API, um contrato de API.
+
+537
+00:14:37.110 --> 00:14:39.550
+Eu vou querer fazer, então, isso daqui, né?
+
+538
+00:14:40.050 --> 00:14:42.350
+E criar uma documentação, tipo esta aqui.
+
+539
+00:14:42.630 --> 00:14:43.190
+Deixar ela aqui.
+
+540
+00:14:43.410 --> 00:14:45.030
+E eu volto para cá, e na minha
+
+541
+00:14:45.030 --> 00:14:48.030
+página de Payment Gateway, eu vou, passo a
+
+542
+00:14:48.030 --> 00:14:48.590
+passo, né?
+
+543
+00:14:48.590 --> 00:14:51.890
+Seguindo esse roadmap aqui, aprendendo como faz cada
+
+544
+00:14:51.890 --> 00:14:54.370
+uma dessas coisas, documentando o que eu aprendi
+
+545
+00:14:54.370 --> 00:14:56.290
+em cada uma dessas coisas, né?
+
+546
+00:14:56.290 --> 00:14:59.210
+E, idealmente, implementando elas, de fato, no GitHub,
+
+547
+00:14:59.410 --> 00:15:01.370
+no projeto do Git, que vai sendo criado
+
+548
+00:15:01.370 --> 00:15:03.690
+em conjunto com o Vibe Learning aqui.
+
+549
+00:15:03.930 --> 00:15:05.390
+É isso, mais ou menos.
+
+550
+00:15:05.390 --> 00:15:06.790
+Ficou bem confuso, tá?
+
+551
+00:15:07.070 --> 00:15:08.330
+Mas, enfim, eu acho que a ideia geral
+
+552
+00:15:08.330 --> 00:15:09.370
+eu consegui passar aqui.
+
+553
+00:15:09.570 --> 00:15:11.990
+Na próxima vez, na próxima vez eu faço
+
+554
+00:15:11.990 --> 00:15:14.410
+um projeto de verdade, através dessa maneira aqui.
+
+555
+00:15:14.650 --> 00:15:16.630
+E eu tento, de repente, também usar os
+
+556
+00:15:16.630 --> 00:15:19.090
+agentes para ir tocando o código junto.
+
+557
+00:15:19.350 --> 00:15:20.870
+E, sei lá, posso sentar aqui e fazer
+
+558
+00:15:20.870 --> 00:15:23.090
+um vídeo de umas três horas de tentar
+
+559
+00:15:23.090 --> 00:15:24.110
+conseguir construir algo.
+
+560
+00:15:24.290 --> 00:15:25.410
+É isso, esse é o Vibe Learning.
+
+561
+00:15:25.670 --> 00:15:27.750
+Não teve muito learning, foi mais eu te
+
+562
+00:15:27.750 --> 00:15:29.650
+mostrar como fazer o learning.
+
+563
+00:15:29.890 --> 00:15:31.530
+Eu não parei para, de fato, estudar as
+
+564
+00:15:31.530 --> 00:15:32.010
+coisas, tá?
+
+565
+00:15:32.310 --> 00:15:33.870
+Isso que eu fiz agora é só o
+
+566
+00:15:33.870 --> 00:15:36.630
+processinho, é só a sequência de prompts iniciais
+
+567
+00:15:36.630 --> 00:15:38.130
+que vai te levar, de fato, para o
+
+568
+00:15:38.130 --> 00:15:38.670
+aprendizado.
+
+569
+00:15:38.910 --> 00:15:40.130
+Eu não aprendi nada fazendo isso.
+
+570
+00:15:40.250 --> 00:15:41.490
+Se você replicar o que eu fiz agora
+
+571
+00:15:41.490 --> 00:15:43.070
+e estocar o vento aqui, certo?
+
+572
+00:15:43.170 --> 00:15:44.790
+Estocar esses documentos, você não vai aprender nada
+
+573
+00:15:44.790 --> 00:15:45.050
+também.
+
+574
+00:15:45.250 --> 00:15:46.310
+Você vai ter que pesquisar, de fato, as
+
+575
+00:15:46.310 --> 00:15:46.530
+coisas.
+
+576
+00:15:46.930 --> 00:15:49.030
+Isso aqui só funciona, só é legal porque
+
+577
+00:15:49.030 --> 00:15:51.070
+a gente tem, por trás disso, esse projeto
+
+578
+00:15:51.070 --> 00:15:52.010
+aqui que a gente quer criar, né?
+
+579
+00:15:52.270 --> 00:15:53.230
+Isso aqui vai ser bacana, a gente vai
+
+580
+00:15:53.230 --> 00:15:54.530
+aprender bastante criando esse projeto.
+
+581
+00:15:54.710 --> 00:15:55.570
+E como a gente tem um projeto que
+
+582
+00:15:55.570 --> 00:15:57.030
+a gente quer, de fato, criar, a gente
+
+583
+00:15:57.030 --> 00:15:59.190
+está estudando as possibilidades de como implementar.
+
+584
+00:15:59.270 --> 00:15:59.930
+E aí, pô, será que eu uso o
+
+585
+00:15:59.930 --> 00:16:00.130
+Pochuga?
+
+586
+00:16:00.190 --> 00:16:00.950
+Será que eu uso o Mongo?
+
+587
+00:16:00.950 --> 00:16:01.970
+Será que eu uso sei lá o quê?
+
+588
+00:16:02.190 --> 00:16:04.750
+Esse estudo de possibilidades vai guiar um estudo
+
+589
+00:16:04.750 --> 00:16:06.850
+de verdade do que é realmente usado.
+
+590
+00:16:07.490 --> 00:16:09.090
+Se você quer implementar um gator de pagamentos,
+
+591
+00:16:09.170 --> 00:16:10.510
+não adianta você ficar estudando um monte de
+
+592
+00:16:10.510 --> 00:16:11.230
+coisa que não tem nada a ver.
+
+593
+00:16:11.510 --> 00:16:12.310
+Só que você vai ter um guia, né?
+
+594
+00:16:12.410 --> 00:16:12.910
+Precisa estudar...
+
+595
+00:16:12.910 --> 00:16:15.510
+Ah, primeiro precisa estudar, sei lá, event-driven
+
+596
+00:16:15.510 --> 00:16:16.290
+architecture, né?
+
+597
+00:16:16.350 --> 00:16:17.910
+Aí eu quero estudar também Kafka, aí eu
+
+598
+00:16:17.910 --> 00:16:19.790
+quero estudar documentação de API, saca?
+
+599
+00:16:19.910 --> 00:16:22.230
+Você vai ter, cara, vibe learning, aprende com
+
+600
+00:16:22.230 --> 00:16:22.530
+as vibes.
