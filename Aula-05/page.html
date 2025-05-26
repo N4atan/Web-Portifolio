@@ -68,5 +68,30 @@
             </div>
         </div>
     </section>
+
+    <section id="form-image" style="width: 80vw; height: auto; margin: 5rem auto;  border: 2px #141414 outset; box-shadow: 4px 4px 3px 0.5px #141414;">
+        <h1 style="text-align: center;">3️⃣ Formulário de Envio de Imagens</h1>
+        
+        <form action="/goBack" method="post" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+            <label for="inp-img" style="width: 30%; height: 3rem; background-color: #ffffff; color: #000000; text-align: center; padding: 10px 20px; border: 1px #5d5d5d solid; border-radius: 0.5rem; cursor: pointer;"> 📎Upload</label>
+            <input type="file" name="inp-img" id="inp-img" required accept="image/png, image/jpeg" style="width: 30%; border: 1px solid #2c2c2c; padding: 5px; border-radius: 0.5rem;">
+            <p style="color:#6d6d6d;">Only: .png or .jpeg</p>
+
+            <button type="submit" style="width: 30%; background-color: #2c2c2c; color: #ffff; padding: 10px 20px; ; border-radius: 0.5rem; cursor: pointer;">Send</button>
+            <button type="reset" style="width: 30%; background-color: #ffff; color: #2c2c2c; padding: 10px 20px; margin-bottom: 2rem; border-radius: 0.5rem; cursor: pointer;">Clear</button>
+        </form>
+    
+    </section>
+
+    <section id="iframe" style="width: 80vw; height: auto; margin: 5rem auto; border: 2px #141414 outset; box-shadow: 4px 4px 3px 0.5px #141414; display: flex; flex-direction: column; align-items: center;">
+        <h1 style="text-align: center;">4️⃣ Página Incorporada</h1>
+
+        <iframe width="80%" height="500px" loading="lazy" allowfullscreen
+            src="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number" 
+            frameborder="0" 
+            style="margin: 2rem 0; border: 2px #5d5d5d outset; border-radius: 0.5rem; box-shadow: 2px 2px 1px 0.5px #5d5d5d;"
+            title="Bulbagarden">
+        </iframe>
+    </section>
 </body>
 </html>
