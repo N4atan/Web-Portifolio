@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula-06</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    </style>
+  </head>
+  <body>
+    <!--
+🎶 Crie uma tabela com seu Top 5 músicas favoritas!
+A tabela deve conter:
+
+Capa do álbum (use imagens via <img>)
+Nome da música
+Artista
+Player de áudio (use a tag <audio> com um arquivo de áudio ou link externo)
+✅ Além disso:
+Aplique CSS usando arquivo externo (External).
+
+Estilize:
+
+Borda da tabela
+Cores alternadas nas linhas
+Texto centralizado
+Fonte personalizada (pode usar Google Fonts)-->
+
+    <main>
+        <h1>🎶 Crie uma tabela com seu Top 5 músicas favoritas!</h1>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class="td-esquerda">
+                        <img class="music-image" src="./data/images/sound-1.jpg" alt="">
+                    </td>
+                    <td class="td-meio">
+                        <p class="music-name">Tanto Faz</p>
+                        <p class="music-author">Sotam, Ardlez, JOK3R</p>
+                    </td>
+                    <td class="td-direita">
+                        <audio controls class="music-player">
+                            <source src="data/sounds/sound-1.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="td-esquerda">
+                        <img class="music-image" src="./data/images/sound-2.jpg" alt="">
+                    </td>
+                    <td class="td-meio">
+                        <p class="music-name">The Winner Is... (DeVotchKa Version)</p>
+                        <p class="music-author">DeVotchKa Version</p>
+                    </td>
+                    <td class="td-direita">
+                        <audio controls class="music-player">
+                            <source src="data/sounds/sound-2.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td class="td-esquerda">
+                        <img class="music-image" src="./data/images/sound-3.jpg" alt="">
+                    </td>
+                    <td class="td-meio">
+                        <p class="music-name">Congratulations</p>
+                        <p class="music-author">Post Malone</p>
+                    </td>
+                    <td class="td-direita">
+                        <audio controls class="music-player">
+                            <source src="data/sounds/sound-3.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="td-esquerda">
+                        <img class="music-image" src="./data/images/sound-4.jpg" alt="">
+                    </td>
+                    <td class="td-meio">
+                        <p class="music-name">Japanese Deim</p>
+                        <p class="music-author">Daniel Caesar</p>
+                    </td>
+                    <td class="td-direita">
+                        <audio controls class="music-player">
+                            <source src="data/sounds/sound-4.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="td-esquerda">
+                        <img class="music-image" src="./data/images/sound-5.jpg" alt="">
+                    </td>
+                    <td class="td-meio">
+                        <p class="music-name">DtMF</p>
+                        <p class="music-author">Bad Bunny</p>
+                    </td>
+                    <td class="td-direita">
+                        <audio controls class="music-player">
+                            <source src="data/sounds/sound-5.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+  </body>
+</html>

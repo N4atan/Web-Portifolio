@@ -1,0 +1,59 @@
+table {
+    width: 50%;
+    border-collapse: collapse; /* Remove espaçamento entre células */
+    margin: auto auto;
+    border: 1px #d9d9d9 outset;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px; /* Evita que o conteúdo fique grudado */
+}
+
+table tr:hover {
+    background-color: #d9d9d9;
+}
+
+/* Coluna da esquerda */
+.td-esquerda {
+    width: 200px;
+}
+
+/* Coluna do meio */
+.td-meio {
+    width: 40rem;
+    align-items: flex-start;
+}
+
+/* Coluna da direita */
+.td-direita {
+    width: auto;
+}
+
+/* Imagem da música */
+.music-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* Nome da música */
+.music-name {
+    font-size: 48px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* Autor da música */
+.music-author {
+    color: #454545;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* Player de música */
+.music-player {
+    width: 20rem;
+    height: 100px;
+}
+
+
