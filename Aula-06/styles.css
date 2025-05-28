@@ -1,17 +1,16 @@
-table {
-    width: 50%;
+table {    
     border-collapse: collapse; /* Remove espaçamento entre células */
-    margin: auto auto;
-    border: 1px #d9d9d9 outset;
+    margin: 3rem auto;
+    border: 2px #141414 outset; box-shadow: 4px 4px 3px 0.5px #141414;
 }
 
 table td {
     border-bottom: 1px solid #ddd;
-    padding: 10px; /* Evita que o conteúdo fique grudado */
+    padding: 20px; /* Evita que o conteúdo fique grudado */
 }
 
 table tr:hover {
-    background-color: #d9d9d9;
+    transform: scale(1.01);
 }
 
 /* Coluna da esquerda */
@@ -21,7 +20,7 @@ table tr:hover {
 
 /* Coluna do meio */
 .td-meio {
-    width: 40rem;
+    width: 40em;
     align-items: flex-start;
 }
 
@@ -38,7 +37,7 @@ table tr:hover {
 
 /* Nome da música */
 .music-name {
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom: 0;
     margin-top: 0;
     font-family: "Roboto Mono", monospace;
@@ -56,4 +55,12 @@ table tr:hover {
     height: 100px;
 }
 
+h1 {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    transition: 0.3s ease;
+}
 
+h1:hover {
+    color: #8808b7;
+  }
