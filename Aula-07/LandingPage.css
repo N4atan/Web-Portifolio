@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Chamado de 'Reset'*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #2c2c2c;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    margin: auto;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #d9d9d9;
+}
+
+#container-about {
+    width: 80%;
+    height: 25rem;
+    margin: 5rem auto;
+    padding: 20px;
+}
+
+#about-informations {
+    width: 60%;
+}
+
+#about-informations h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+#about-informations h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+#about-informations p {
+    font-size: 18px;
+    text-align: left;
+    color: #d8d8d8;
+}
