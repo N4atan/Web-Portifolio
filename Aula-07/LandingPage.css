@@ -14,6 +14,8 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0%;
     width: 100%;
     border-bottom: 2px solid #2c2c2c;
     display: flex;
@@ -56,4 +58,34 @@ header nav a {
     font-size: 18px;
     text-align: left;
     color: #d8d8d8;
+}
+
+#container-shortcuts {
+    width: 80%;
+    height: 15rem;
+    margin: 5rem auto;
+    padding: 20px;
+}
+
+#container-shortcuts h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+
+#shortcuts-buttons {
+    margin-top: 1rem;
+}
+
+.btn-link {
+    background-color: #252525;
+    margin-right: 3rem;
+    color: #d9d9d9;
+    text-decoration: none;
+    /* Aumente o PADDING para expandir o fundo: */
+    padding: 20px 30px; /* Quanto maior, mais expansão */
+    border-radius: 10%; /* Deixa redondo (ou use 8px para quadrado arredondado) */
+    font-size: 28px; /* Tamanho do ícone */
+    /* Mantenha o alinhamento original da div pai (flex) */
+    display: inline-block; /* Padrão para <a>, não interfere no flex pai */
 }
