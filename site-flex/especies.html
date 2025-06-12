@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PingWiki - Espécies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('images/beautiful-natural-landscape.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* HEADER */
+        .header {
+            width: 90%;
+            max-width: 1200px;
+            height: 4rem;
+            background-color: rgba(255, 255, 255, 0.792);
+            margin: 0 auto;
+            position: sticky;
+            top: 0;
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #2c2c2c;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: #2c2c2c;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #1a6fc9;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+        .page-title {
+            width: 90%;
+            max-width: 50rem;
+            margin: 2rem auto;
+            text-align: center;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            backdrop-filter: blur(3px);
+        }
+
+        .cards-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+        }
+
+        .penguin-card {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            overflow: hidden;
+            backdrop-filter: blur(3px);
+            transition: transform 0.3s ease;
+            flex: 1 1 300px;
+            max-width: 350px;
+        }
+
+        .penguin-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-image-container {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .card-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .card-content .location {
+            font-style: italic;
+            color: #a8d8ea;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .card-content .location::before {
+            content: "📍";
+            margin-right: 5px;
+        }
+
+        .card-content .description {
+            line-height: 1.6;
+        }
+
+        .glacial-text {
+            text-shadow: 
+                1px 1px 2px rgba(0, 0, 0, 0.5),
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">PingWiki</a>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Espécies</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h1 class="glacial-text">Conheça as Espécies</h1>
+            <h2 class="glacial-text">Os reis do gelo em toda sua diversidade</h2>
+        </div>
+
+        <div class="cards-container">
+            <!-- Card 1 -->
+            <div class="penguin-card">
+                <div class="card-image-container">
+                    <img src="images/penguin1.jpg" alt="Pinguim-imperador" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>Pinguim-imperador</h3>
+                    <p class="location">Antártida</p>
+                    <p class="description">O maior de todos os pinguins, conhecido por sua incrível resistência ao frio extremo e por suas longas caminhadas no gelo.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="penguin-card">
+                <div class="card-image-container">
+                    <img src="images/penguin2.jpg" alt="Pinguim-de-adélia" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>Pinguim-de-adélia</h3>
+                    <p class="location">Antártida e ilhas próximas</p>
+                    <p class="description">Pequenos e agitados, são conhecidos por seus ninhos de pedras e comportamento curioso.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="penguin-card">
+                <div class="card-image-container">
+                    <img src="images/penguin3.jpg" alt="Pinguim-rei" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>Pinguim-rei</h3>
+                    <p class="location">Ilhas subantárticas</p>
+                    <p class="description">Segundo maior pinguim, com cores vibrantes e um porte majestoso que justifica seu nome.</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="penguin-card">
+                <div class="card-image-container">
+                    <img src="images/penguin4.jpg" alt="Pinguim-de-magalhães" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>Pinguim-de-magalhães</h3>
+                    <p class="location">América do Sul</p>
+                    <p class="description">Vive em climas mais temperados e migra anualmente entre Argentina e Brasil.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="penguin-card">
+                <div class="card-image-container">
+                    <img src="images/penguin5.jpg" alt="Pinguim-africano" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>Pinguim-africano</h3>
+                    <p class="location">África do Sul e Namíbia</p>
+                    <p class="description">O único pinguim que vive no continente africano, adaptado a climas mais quentes.</p>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="penguin-card">
+                <div class="card-image-container">
+                    <img src="images/penguin6.jpg" alt="Pinguim-gentoo" class="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>Pinguim-gentoo</h3>
+                    <p class="location">Ilhas subantárticas</p>
+                    <p class="description">Reconhecido pelo chamativo bico vermelho e por ser o pinguim mais rápido debaixo d'água.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
