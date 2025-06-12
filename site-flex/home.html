@@ -4,70 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PingWiki</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-image: url('images/group-penguins-walking-frozen-beach.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            min-height: 100vh;
-            color: white;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .header {
-            width: 90%;
-            max-width: 1200px;
-            height: 4rem;
-            background-color: rgba(255, 255, 255, 0.792);
-            margin: 0 auto;
-            position: sticky;
-            top: 0;
-            border-radius: 8px;
-            backdrop-filter: blur(5px);
-        }
-
-        #div-content {
-            width: 90%;
-            max-width: 50rem;
-            min-height: 10rem;
-            margin: 2rem auto;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 2rem;
-        }
-
-        #div-content h1 {
-            text-transform: uppercase;
-            text-shadow: 1px 1px 4px #2c2c2c;
-            margin-bottom: 0.1rem;
-        }
-
-        #div-content h2 {
-            font-weight: 400;
-            text-shadow: 1px 1px 4px #2c2c2c;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="styles/pages.css">
 </head>
-<body>
-    <header class="header"></header>
+<body id="body-1">
+    <header class="header">
+        <a href="#" class="logo">PingWiki</a>
+        <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="especies.html">Espécies</a>
+        </nav>
+    </header>
 
     <main>
-         <div id="div-content">
-            <h1 class="glacial-text">Heroes in miniature, kings of the ice</h1>
-            <h2 class="glacial-text">Strength and fragility collide in their icy realm.</h2>
+        <div class="page-title">
+            <h1 class="glacial-text-1">Heroes in miniature, kings of the ice</h1>
+            <h2 class="glacial-text-2">Strength and fragility collide in their icy realm.</h2>
             <!-- <h2>Crowned by nature, threatened by mankind.</h2> -->
          </div>
     </main>
