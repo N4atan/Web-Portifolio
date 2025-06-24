@@ -1,0 +1,58 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5rem auto auto 3rem;
+    gap: 8px;
+    grid-template-areas:
+        "header header header header"
+        ". init init . "
+        "form  form   aside   aside"
+        "footer footer footer footer";
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: #080808;
+    font-family: monospace;
+}
+
+form, aside, footer {
+    background-color: #1e1e1e;
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#group-text-section {
+    grid-area: init;
+    text-align: center;
+    color: #dadada;
+}
+
+#group-text-section h1 {
+    color: rgb(125, 37, 248);
+}
+
+
+
+form {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form h1 {
+    color: white;
+}
+
+form label {
+    color: #dadada;
+}
+
+form input {
+    
+}
+
+aside {
+    grid-area: aside;
+}
