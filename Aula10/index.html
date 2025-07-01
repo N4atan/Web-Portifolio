@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aual 10</title>
+
+    <style>
+        .dark-theme {
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <button id="btnp2">Mostrar</button>
+        <input type="text" name="" id="inpp2" placeholder="Digite algo...">
+
+        <div id="divp2" style="width: 200px; height: 200px; background-color: #d9d9d9;">
+            <h1 id="hh1" style="display: none;">Paragro escondido</h1>
+            <p id="pp2"></p>
+        </div>
+
+    </section>
+
+    <section>
+        <label for="inpp3">Digite a tarefa:</label>
+        <input type="text" name="" id="inpp3" placeholder="Ex.: Ir ao mercado">
+        <button id="btnp3">Add</button>
+
+        <ul id="ulp3">
+
+        </ul>
+        <button id="themeBtn">Mudar tema</button>
+    </section>
+
+    <script>
+        //Parte 1
+        let nome    = 'Natan';
+        const curso = 'Front-End';
+        function welcome(){ return `Bem-vindo, ${nome}! Você está no curso de ${curso}.`; }
+        console.log(welcome());
+
+        function soma(a, b){ return a+b; }
+        console.log(soma(10,8));
+        //End - Parte 1
+
+
+        //Parte 2
+        document.getElementById('btnp2').addEventListener('click', () => {
+            document.getElementById('hh1').style.display = document.getElementById('hh1').style.display == 'none' ? '' : 'none';
+            document.getElementById('btnp2').innerHTML = document.getElementById('btnp2').textContent == 'Mostrar' ? 'Ocultar' : 'Mostrar';
+        })
+
+        const divp2 = document.getElementById('divp2');
+
+        divp2.addEventListener('mouseover', () =>{
+            divp2.style.backgroundColor = 'blue';
+        })
+
+        divp2.addEventListener('mouseout', () =>{
+            divp2.style.backgroundColor = '#d9d9d9';
+        })
+
+        document.getElementById('inpp2').addEventListener('keyup', () => {
+            document.getElementById('pp2').innerText = document.getElementById('inpp2').value;
+        })
+        //End - Parte 2
+
+
+
+        //Parte 3
+        const lista = document.getElementById('ulp3');
+
+        document.getElementById('btnp3').addEventListener('click', ()=>{
+            let content = document.getElementById('inpp3').value;
+
+            if(content == ''){ alert('Digite algo para adicionar 😒') ; return}
+
+            const li = document.createElement('li');
+            li.textContent = content;
+            lista.appendChild(li);
+
+            document.getElementById('inpp3').value = '';
+        })
+
+        document.getElementById('themeBtn').addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+
+            const themeBtn = document.getElementById('themeBtn');
+            themeBtn.textContent = document.body.classList.contains('dark-theme')
+                ? 'Tema Claro' 
+                : 'Tema Escuro';
+        });
+
+    </script>
+</body>
+</html>
