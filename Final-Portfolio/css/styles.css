@@ -1,0 +1,190 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Altura total para body e html */
+html, body {
+    height: 100%;
+}
+
+/* Fundo do site */
+body {
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Cabeçalho fixo no topo */
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #3c3c3c;
+}
+
+main {
+    overflow: hidden;
+}
+
+/* Estilo das seções */
+section {
+    width: 100%;
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 1rem;
+}
+
+h1, h2, p {
+    color: #0FFF50;
+    font-family: monospace;
+}
+
+#container-welcome {
+    height: 400px;
+    
+}
+
+/* Seção de boas-vindas */
+#container-welcome h1, h2 {
+    text-align: center;
+    color: white;
+    font-family: "Pixelify Sans";
+}
+
+/* Seção sobre */
+#container-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+#container-about #div-img {
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    display: inline-block;
+    border: 1px solid #f6f6f6;
+    backdrop-filter: blur(10px);
+    transform: rotate(7deg);
+}
+
+#container-about #div-img img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+#container-about #group-about {
+    flex: 1;
+    min-width: 200px;
+    padding: 1rem;
+}
+
+/* Seção de skills */
+#container-skills #group-cards-skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 2rem 1px;
+}
+
+.cardSkill {
+    background-color: #1c1c1c;
+    backdrop-filter: blur(100px);
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 8px rgba(39, 39, 39, 0.5);
+}
+
+.cardSkill:hover {
+    transform: scale(1.05);
+}
+
+.skillfront:hover {
+    box-shadow: 0 0 10px rgba(207, 15, 255, 0.5);
+}
+
+.skillback:hover {
+    box-shadow: 0 0 10px rgba(15, 251, 255, 0.5);
+}
+
+.skilltool:hover {
+    box-shadow: 0 0 10px rgba(255, 15, 15, 0.5);
+}
+
+.cardSkill .divIcon {
+    width: 80px;
+    height: 50px;
+    border-right: 1px solid #272727;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.cardSkill p {
+    margin: auto;
+    color: white;
+    font-size: 1rem;
+}
+
+/* Seção de projetos */
+#container-projects #group-cards-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.cardProject {
+    background-color: #1c1c1c;
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 8px rgba(39, 39, 39, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.cardProject:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(15, 255, 80, 0.5);
+}
+
+.cardProject .divImg {
+    background-color: #2b2b2b;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+
+.cardProject .nameProject {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1rem;
+    word-break: break-word;
+    color: white;
+}
+
+.cardProject .dataProject {
+    margin-right: 15px;
+    text-align: end;
+    font-size: 0.9rem;
+    color: #ccc;
+}
