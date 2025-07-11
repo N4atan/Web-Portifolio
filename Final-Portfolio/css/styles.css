@@ -23,7 +23,8 @@ body {
 header {
     width: 100%;
     height: 60px;
-    background-color: #3c3c3c;
+    background-color: #1b1b1b;
+    border-bottom: 2px solid #222222;
 }
 
 main {
@@ -43,16 +44,39 @@ h1, h2, p {
     font-family: monospace;
 }
 
-#container-welcome {
-    height: 400px;
-    
+h1 {
+    font-size: 32px;
+    font-style: italic;
 }
 
-/* Seção de boas-vindas */
-#container-welcome h1, h2 {
+#container-welcome {
+    height: 400px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+}
+
+#container-welcome h1 {
     text-align: center;
     color: white;
-    font-family: "Pixelify Sans";
+    font-family: "Pixelify Sans", monospace;
+    font-size: 24px;
+
+    width: 11ch; /* Ajuste isso ao número real de caracteres */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+
+    animation: typing 3s steps(11), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 11ch; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
 }
 
 /* Seção sobre */
@@ -61,6 +85,17 @@ h1, h2, p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 5rem;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#container-about h2, p {
+    color: white;
+    margin-top: 10px;
+}
+
+#container-about p {
+    font-weight: lighter;
 }
 
 #container-about #div-img {
@@ -187,4 +222,59 @@ h1, h2, p {
     text-align: end;
     font-size: 0.9rem;
     color: #ccc;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1b1b1b;
+    border-top: 2px solid #222222;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer #container-temp {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1rem;
+    border-radius: 10px;
+    /* box-shadow: 0 0 8px rgba(39, 39, 39, 0.5); */
+    transition: ease 1s;
+    gap: 0.5rem;
+    user-select: none;
+}
+
+footer #container-temp:hover {
+    transform: scale(1.05);
+    background-color: #232323;
+    box-shadow: 0 0 10px rgba(250, 237, 1, 0.997);
+}
+
+footer #container-temp span {
+    font-size: 14px;
+    color: white;
+}
+
+/* Novo */
+.icon-wrapper {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.temp-number {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2px 4px;
+    border-radius: 5px;
 }
