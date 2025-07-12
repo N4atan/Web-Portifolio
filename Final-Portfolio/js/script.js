@@ -34,7 +34,7 @@ function getWeather(){
 function setDataWeather(data){
     console.log(data);
 
-    document.getElementById('tempIcon').src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`
+    document.getElementById('tempIcon').src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
     document.getElementById('tempTemp').innerHTML = data.main.temp.toFixed(0)
     document.getElementById('tempCity').innerHTML = data.name;
 }
