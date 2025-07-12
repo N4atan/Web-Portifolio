@@ -1,129 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
-    <script src="https://kit.fontawesome.com/30f143b5e5.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/30f143b5e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header></header>
 
     <main>
-        <section id="container-welcome">
-            <h1>404 <br> Not found</h1>
+      <section id="container-welcome">
+        <h1>
+          404 <br />
+          Not found
+        </h1>
+      </section>
 
-        </section>
+      <section id="container-about">
+        <div id="div-img">
+          <img src="assets/perfil.jpg" alt="" />
+        </div>
 
-        <section id="container-about">
-            <div id="div-img">
-                <img src="assets/perfil.jpg" alt="">
-            </div>
+        <div id="group-about">
+          <h1>About-me</h1>
+          <h2>
+            Hey. I’m Natan. Not the best at writing about myself, but here goes.
+          </h2>
+          <p>
+            I like messing with code. It started with curiosity — I typed some
+            stuff, the screen changed, and that blew my mind a little. Been
+            hooked ever since. I’m not some coding wizard or anything, but I
+            enjoy learning, breaking things, and figuring out how to fix them.
+            Sometimes it works on the first try (rare), sometimes I want to
+            throw my laptop out the window (less rare), but I keep going. I’m
+            currently studying Software Development and building small projects
+            as I learn. Still figuring out what I enjoy most — front-end,
+            back-end, design, whatever — but I know I like seeing things I made
+            come to life. I don’t have a stack of certificates or a fancy résumé
+            (yet), but I’ve got curiosity, and that’s been enough to keep me
+            moving. This portfolio is simple, but it’s mine. And just like me,
+            it’s a work in progress.
+          </p>
 
-            <div id="group-about">
-                <h1>About-me</h1>
-                <h2>Hey. I’m Natan. Not the best at writing about myself, but here goes.</h2>
-                <p>
-                    I like messing with code. It started with curiosity — I typed some stuff, the screen changed, and
-                    that blew my mind a little. Been hooked ever since. I’m not some coding wizard or anything, but I
-                    enjoy learning, breaking things, and figuring out how to fix them. Sometimes it works on the first
-                    try (rare), sometimes I want to throw my laptop out the window (less rare), but I keep going.
+          <div class="cardSocialMedia" id="cardEmail">
+            <div><i class="fa-solid fa-envelope"></i></div>
+            <p>Contact-me</p>
+          </div>
+        </div>
+      </section>
 
-                    I’m currently studying Software Development and building small projects as I learn. Still figuring
-                    out what I enjoy most — front-end, back-end, design, whatever — but I know I like seeing things I
-                    made come to life.
+      <section id="container-skills">
+        <h1>Skills-Set</h1>
 
-                    I don’t have a stack of certificates or a fancy résumé (yet), but I’ve got curiosity, and that’s
-                    been enough to keep me moving. This portfolio is simple, but it’s mine. And just like me, it’s a
-                    work in progress.
-                </p>
-            </div>
-        </section>
+        <div id="group-cards-skill">
+          <div class="cardSkill skillfront">
+            <div class="divIcon"><i class="fa-brands fa-js"></i></div>
+            <p>Javascript</p>
+          </div>
 
-        <section id="container-skills">
-            <h1>Skills-Set</h1>
+          <div class="cardSkill skillfront">
+            <div class="divIcon"><i class="fa-solid fa-file-code"></i></div>
+            <p>HTML/CSS</p>
+          </div>
 
-            <div id="group-cards-skill">
-                <div class="cardSkill skillfront">
-                    <div class="divIcon"><i class="fa-brands fa-js"></i></div>
-                    <p>Javascript</p>
-                </div>
+          <div class="cardSkill skillback">
+            <div class="divIcon"><i class="fa-brands fa-java"></i></div>
+            <p>Java</p>
+          </div>
 
-                <div class="cardSkill skillfront">
-                    <div class="divIcon"><i class="fa-solid fa-file-code"></i></div>
-                    <p>HTML/CSS</p>
-                </div>
+          <div class="cardSkill skillback">
+            <div class="divIcon"><i class="fa-solid fa-database"></i></div>
+            <p>MySQL</p>
+          </div>
 
-                <div class="cardSkill skillback">
-                    <div class="divIcon"><i class="fa-brands fa-java"></i></div>
-                    <p>Java</p>
-                </div>
+          <div class="cardSkill skilltool">
+            <div class="divIcon"><i class="fa-brands fa-github"></i></div>
+            <p>Github</p>
+          </div>
 
-                <div class="cardSkill skillback">
-                    <div class="divIcon"><i class="fa-solid fa-database"></i></div>
-                    <p>MySQL</p>
-                </div>
+          <div class="cardSkill skilltool">
+            <div class="divIcon"><i class="fa-brands fa-figma"></i></div>
+            <p>Figma</p>
+          </div>
+        </div>
+      </section>
 
-                <div class="cardSkill skilltool">
-                    <div class="divIcon"><i class="fa-brands fa-github"></i></div>
-                    <p>Github</p>
-                </div>
+      <section id="container-projects">
+        <h1>My Portfolio</h1>
 
-                <div class="cardSkill skilltool">
-                    <div class="divIcon"><i class="fa-brands fa-figma"></i></div>
-                    <p>Figma</p>
-                </div>
-            </div>
-        </section>
+        <div id="group-cards-projects">
+          <div class="cardProject">
+            <div class="divImg"></div>
+            <p class="nameProject">Name</p>
+            <p class="dataProject">Data</p>
+          </div>
 
-        <section id="container-projects">
+          <div class="cardProject">
+            <div class="divImg"></div>
+            <p class="nameProject">Name</p>
+            <p class="dataProject">Data</p>
+          </div>
 
-            <h1>My Portfolio</h1>
-
-            <div id="group-cards-projects">
-
-                <div class="cardProject">
-                    <div class="divImg"></div>
-                    <p class="nameProject">Name</p>
-                    <p class="dataProject">Data</p>
-                </div>
-
-                <div class="cardProject">
-                    <div class="divImg"></div>
-                    <p class="nameProject">Name</p>
-                    <p class="dataProject">Data</p>
-                </div>
-
-                <div class="cardProject">
-                    <div class="divImg"></div>
-                    <p class="nameProject">Name</p>
-                    <p class="dataProject">Data</p>
-                </div>
-
-
-            </div>
-
-        </section>
-
+          <div class="cardProject">
+            <div class="divImg"></div>
+            <p class="nameProject">Name</p>
+            <p class="dataProject">Data</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div id="container-temp">
-            <div class="icon-wrapper">
-                <img id="tempIcon" />
-                <span id="tempTemp" class="temp-number"></span>
-            </div>
-            <span id="tempCity"></span>
+      <div id="container-temp">
+        <div class="icon-wrapper">
+          <img id="tempIcon" />
+          <span id="tempTemp" class="temp-number"></span>
         </div>
+        <span id="tempCity"></span>
+      </div>
+
+      <button id="openModalBtn">Contact-me</button>
     </footer>
 
+    <!-- Modal -->
+    <div id="modal" class="hidden">
+      <div id="modalOverlay"></div>
+      <div id="modalContent">
+        <form
+          action="https://formsubmit.co/gabrielnathan2912@gmail.com"
+          method="POST"
+        >
+          <h2>Contact-me</h2>
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="Type your name..."
+          />
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="Type your email..."
+          />
+          <textarea
+            name="message"
+            required
+            placeholder="Type your message..."
+          ></textarea>
+          <button type="submit">Send</button>
+          <span id="closeModalBtn">&times;</span>
+        </form>
+      </div>
+    </div>
+
     <script src="js/script.js" defer></script>
-
-</body>
-
+  </body>
 </html>

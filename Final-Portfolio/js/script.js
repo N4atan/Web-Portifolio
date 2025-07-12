@@ -38,3 +38,20 @@ function setDataWeather(data){
     document.getElementById('tempTemp').innerHTML = data.main.temp.toFixed(0)
     document.getElementById('tempCity').innerHTML = data.name;
 }
+
+
+document.getElementById('cardEmail').addEventListener('click', () => {
+    const modal = document.getElementById('modal');
+    
+    modal.style.display === 'none' || modal.classList.contains('hidden')
+        ? modal.classList.remove('hidden')
+        : modal.classList.add('hidden');
+});
+
+document.getElementById('closeModalBtn').addEventListener('click', () => {
+    const modal = document.getElementById('modal');
+    
+    modal.style.display === 'none' || modal.classList.contains('hidden')
+        ? modal.classList.remove('hidden')
+        : modal.classList.add('hidden');
+});

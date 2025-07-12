@@ -61,7 +61,6 @@ h1 {
     color: white;
     font-family: "Pixelify Sans", monospace;
     font-size: 24px;
-
     width: 11ch; /* Ajuste isso ao número real de caracteres */
     white-space: nowrap;
     overflow: hidden;
@@ -96,6 +95,7 @@ h1 {
 
 #container-about p {
     font-weight: lighter;
+    font-size: 12px;
 }
 
 #container-about #div-img {
@@ -120,6 +120,38 @@ h1 {
     padding: 1rem;
 }
 
+.cardSocialMedia {
+    background-color: #1c1c1c;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0 8px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cardSocialMedia:hover {
+    transform: scale(1.1);
+}
+
+.cardSocialMedia div {
+    width: 40px;
+    height: 100%;
+    border-right: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.cardSocialMedia p {
+    color: white;
+    margin: auto 1rem;
+}
+
+
 /* Seção de skills */
 #container-skills #group-cards-skill {
     display: flex;
@@ -141,6 +173,8 @@ h1 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 0 8px rgba(39, 39, 39, 0.5);
 }
+
+
 
 .cardSkill:hover {
     transform: scale(1.05);
@@ -173,6 +207,7 @@ h1 {
     color: white;
     font-size: 1rem;
 }
+
 
 /* Seção de projetos */
 #container-projects #group-cards-projects {
@@ -224,39 +259,38 @@ h1 {
     color: #ccc;
 }
 
+/* FOOTER */
 footer {
+    position: relative;
     width: 100%;
-    height: 100px;
     background-color: #1b1b1b;
     border-top: 2px solid #222222;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding: 2rem 1rem;
+    gap: 2rem;
 }
 
-footer #container-temp {
+/* Temperatura */
+#container-temp {
     display: inline-flex;
     align-items: center;
     padding: 0 1rem;
     border-radius: 10px;
-    /* box-shadow: 0 0 8px rgba(39, 39, 39, 0.5); */
-    transition: ease 1s;
+    transition: ease 0.3s;
     gap: 0.5rem;
     user-select: none;
 }
 
-footer #container-temp:hover {
+#container-temp:hover {
     transform: scale(1.05);
     background-color: #232323;
     box-shadow: 0 0 10px rgba(250, 237, 1, 0.997);
 }
 
-footer #container-temp span {
-    font-size: 14px;
-    color: white;
-}
-
-/* Novo */
 .icon-wrapper {
     position: relative;
     width: 50px;
@@ -277,4 +311,124 @@ footer #container-temp span {
     color: white;
     padding: 2px 4px;
     border-radius: 5px;
+}
+
+#container-temp span {
+    font-size: 14px;
+    color: white;
+}
+
+/* Botão no footer */
+#openModalBtn {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: #fced01;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#openModalBtn:hover {
+    background-color: #fff200;
+}
+
+/* MODAL */
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#modal.hidden {
+    display: none;
+}
+
+#modalOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Conteúdo do modal (formulário) */
+#modalContent {
+    position: relative;
+    background-color: #232323;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 0.3s ease;
+    z-index: 1001;
+}
+
+#modalContent form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#modalContent form h2 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#modalContent input,
+#modalContent textarea {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+#modalContent button[type="submit"] {
+    background-color: #fced01;
+    color: black;
+    font-weight: bold;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#modalContent button:hover {
+    background-color: #fff200;
+}
+
+/* Botão "X" para fechar o modal */
+#closeModalBtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Animação */
+@keyframes fadeIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
